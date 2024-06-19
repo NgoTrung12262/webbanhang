@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-detail {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.order-detail table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-detail th,
+.order-detail td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.order-detail img {
+    width: 50px;
+    height: auto;
+}
+
+.order-detail .total {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.order-detail .update-cart {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.shipping-info {
+    border: 1px solid #ccc;
+}
+.shipping-info h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.shipping-info form {
+    width: 100%;
+}
+
+.shipping-info label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.shipping-info input[type="text"],
+.shipping-info input[type="email"],
+.shipping-info textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.shipping-info select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.shipping-info button[type="submit"] {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
